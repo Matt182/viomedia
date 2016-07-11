@@ -1,0 +1,20 @@
+{
+    "name": "matt/viomedia",
+    "authors": [
+        {
+            "name": "matt182",
+            "email": "mattspring0@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "task1\\": "task1/",
+            "task2\\": "task2/"
+        },
+        "files": [
+            "config.php",
+            "task1/Utils.php"
+        ]
+    }
+}
